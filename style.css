@@ -72,7 +72,7 @@ body {
 }
 
 .logo-2 {
-    width: 15opx;
+    width: 150px;
 }
 
 .socials {
@@ -81,7 +81,7 @@ body {
 
 .social{
     margin: 0 10px;
-    height: 40;
+    height: 40px;
     width: 40px;
     border: 1px solid #db241b;
     border-radius: 50%;
@@ -139,7 +139,7 @@ body {
     width: 50%;
 }
 
-.slider-txt h1{
+.slider-txt h1 {
     font-size: 70px;
     color: #ffffff;
     text-transform: uppercase;
@@ -205,17 +205,17 @@ body {
 
 .tabs .tab {
     order: 99;
-    flex-wrap: 1;
+    flex-grow: 1;
     width: 100%;
     display: none;
     padding-top: 25px;
 }
 
-.tabs input [type="radio"] {
+.tabs input[type="radio"] {
     display: none;
 }
 
-.tabs input [type="radio"]:checked + label {
+.tabs input[type="radio"]:checked + label {
     border-bottom: 2px solid #db241b;
     color: #ffffff;
 }
@@ -460,7 +460,7 @@ body {
     }
 
     .swiper-horizontal > .swiper-pagination-bullets, 
-    .swiper-pagination-bullets, .swiper-pagination-pagination-horizontal,
+    .swiper-pagination-bullets,.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
         bottom: -7px;
@@ -512,7 +512,7 @@ font-size: 50px;
         text-align: center;
     }
 
-    .horario-info {
+    .horario-info h2 {
         font-size: 50px;
         margin-bottom: 15px;
     }
